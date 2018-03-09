@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.example">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".pxactivity" />
+        <activity android:name=".coloractivity" />
+        <activity android:name=".screenactivity" />
+        <activity android:name=".marginactivity" />
+        <activity android:name=".gravityactivity" />
+        <activity android:name=".scrollactivity" />
+
+        <activity android:name=".marqueeactivity" />
+        <activity android:name=".bbsactivity" />
+        <activity android:name=".clickactivity" />
+
+        <activity android:name=".scaleactivity" />
+        <activity android:name=".captureactivity" />
+        <activity android:name=".iconactivity" />
+
+        <activity android:name=".stateactivity" />
+        <activity android:name=".shapeactivity" />
+        <activity android:name=".nineactivity" />
+
+        <activity android:name=".calculatoractivity" />
+
+    </application>
+
+</manifest>
